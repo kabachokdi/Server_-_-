@@ -1,0 +1,25 @@
+{
+  "name": "server_dmitry_bychkov",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabachokdi/Server_-_-.git"
+  },
+  "keywords": [
+    "kaba"
+  ],
+  "author": "dmitry_bychkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kabachokdi/Server_-_-/issues"
+  },
+  "homepage": "https://github.com/kabachokdi/Server_-_-#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
