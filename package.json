@@ -18,7 +18,7 @@
     "url": "https://github.com/kabachokdi/Server_-_-/issues"
   },
   "homepage": "https://github.com/kabachokdi/Server_-_-#readme",
-  "description": "",
+  "description": "A brief description of what this project does and who it's for",
   "dependencies": {
     "express": "^5.1.0"
   }

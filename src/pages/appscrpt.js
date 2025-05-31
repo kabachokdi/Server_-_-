@@ -4,22 +4,27 @@ document.addEventListener("DOMContentLoaded", function()
   thing.innerHTML = "Бычков Дмитрий Николаевич";
   document.body.appendChild(thing);
 
+  let thing2 = document.createElement('div');
+  document.body.appendChild(thing2);
+  thing2.style.width = '300px';
+  thing2.style.margin = '0 auto'
+  
   thing = document.createElement('h2');
   thing.innerHTML = "Группа 231";
-  document.body.appendChild(thing);
+  thing2.appendChild(thing);
 
   
 
   thing = document.createElement('a');
   thing.href = "lab1/calculator.html";
   thing.innerHTML = "посчитать";
-  document.body.appendChild(thing);
+  thing2.appendChild(thing);
 
 thing = document.createElement('p');
-  document.body.appendChild(thing);
-  
+  thing2.appendChild(thing);
+
     thing = document.createElement('a');
   thing.href = "lab2/Todo.html";
   thing.innerHTML = "Записать";
-    document.body.appendChild(thing);
+    thing2.appendChild(thing);
 });

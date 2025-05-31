@@ -1,6 +1,9 @@
 div {
     color: blue;
     font-size: 20px;
+    align-self: center;
+    border-style:dashed;
+    border-radius: 35px;
 }
 body{
     text-align: center
