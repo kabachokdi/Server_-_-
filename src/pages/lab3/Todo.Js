@@ -15,7 +15,7 @@ fetch('https://www.cbr-xml-daily.ru/daily_json.js')
             listval.appendChild(Buck)
         }
 })  
-.catch((err)=>{console.log(21)})
+.catch((err)=>{console.log(err)})
 }
 document.addEventListener("DOMContentLoaded", function() 
 {
