@@ -27,6 +27,9 @@ thing = document.createElement('p');
   thing.href = "lab2/Todo.html";
   thing.innerHTML = "Записать";
     thing2.appendChild(thing);
+    thing = document.createElement('p');
+  thing2.appendChild(thing);
+
         thing = document.createElement('a');
   thing.href = "lab3/Todo.html";
   thing.innerHTML = "Деньги";
